@@ -1,0 +1,258 @@
+.container-germany {
+display: inline-grid;
+grid-template-columns: 600px;
+grid-template-rows: 133px 133px 133px;
+border: 10px solid lightblue;
+}
+
+.r1-ger {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+background-color: #000000;
+}
+
+.r2-ger {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #DE0002;
+}
+
+.r3-ger {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end: 4;
+background-color: #FFCE00;
+}
+
+.container-gambia {
+display: inline-grid;
+grid-template-columns: 600px;
+grid-template-rows: 133px 17px 100px 17px 133px;
+border: 10px solid lightblue;
+}
+
+.r1-gam {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+background-color: #CE1127;
+}
+
+.r2-gam {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #FFFFFF;
+}
+
+.r3-gam {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end: 4;
+background-color: #0D1D8B;
+}
+
+.r4-gam {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 4;
+grid-row-end: 5;
+background-color: #FFFFFF;
+}
+
+.r5-gam {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 5;
+grid-row-end: 6;
+background-color: #3B7827;
+}
+
+.container-madagascar {
+display: inline-grid;
+grid-template-columns: 200px 400px;
+grid-template-rows: 200px 200px;
+border: 10px solid lightblue;
+}
+
+.c1-mad {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 3;
+background-color: #FFFFFF;
+}
+
+.r1c2-mad {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
+background-color: #FC3E32;
+}
+
+.r2c2-mad {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #007E39;
+}
+
+.container-switzerland {
+display: inline-grid;
+grid-template-columns: 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px;
+border: 10px solid lightblue;
+}
+
+.r1-swi {
+grid-column-start: 1;
+grid-column-end: 6;
+grid-row-start: 1;
+grid-row-end: 2;
+background-color: #FF0002;
+}
+
+.r2c1-swi {
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #FF0002;
+}
+
+.r2c2-swi {
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #FFFFFF;
+}
+
+.r2c3-swi {
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #FF0002;
+}
+
+.r3c1-swi {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end: 4;
+background-color: #FF0002;
+}
+
+.r3c2-swi {
+grid-column-start: 2;
+grid-column-end: 5;
+grid-row-start: 3;
+grid-row-end: 4;
+background-color: #FFFFFF;
+}
+
+.r3c3-swi {
+grid-column-start: 5;
+grid-column-end: 6;
+grid-row-start: 3;
+grid-row-end: 4;
+background-color: #FF0002;
+}
+
+.r4c1-swi {
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 4;
+grid-row-end: 5;
+background-color: #FF0002;
+}
+
+.r4c2-swi {
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 4;
+grid-row-end: 5;
+background-color: #FFFFFF;
+}
+
+.r4c3-swi {
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start: 4;
+grid-row-end: 5;
+background-color: #FF0002;
+}
+
+.r5-swi {
+grid-column-start: 1;
+grid-column-end: 6;
+grid-row-start: 5;
+grid-row-end: 6;
+background-color: #FF0002;
+}
+
+.container-japan {
+display: inline-grid;
+grid-template-columns: 173px 234px 173px;
+grid-template-rows: 77px 234px 77px;
+border: 10px solid lightblue;
+}
+
+.r1 {
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+background-color: #FFFFFF;
+}
+
+.r2c1 {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #FFFFFF;
+}
+
+.r2c2 {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #FFFFFF;
+}
+
+.r2c3 {
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: #FFFFFF;
+}
+
+.r3 {
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;
+background-color: #FFFFFF; 
+}
+
+.spot {
+height: 234px;
+width: 234px;
+background-color: #BC022C;
+border-radius: 50%;
+display: inline-block;
+}
